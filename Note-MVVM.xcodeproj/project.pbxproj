@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01312D3DCFBECC9E374B1DC0 /* Pods_Note_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF04CFB2D782B5F84D61EFBC /* Pods_Note_MVVM.framework */; };
 		03EA888D2151651300BB1360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA888C2151651300BB1360 /* AppDelegate.swift */; };
-		03EA888F2151651300BB1360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA888E2151651300BB1360 /* ViewController.swift */; };
+		03EA888F2151651300BB1360 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA888E2151651300BB1360 /* TodoViewController.swift */; };
 		03EA88922151651300BB1360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EA88902151651300BB1360 /* Main.storyboard */; };
 		03EA88942151651800BB1360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EA88932151651800BB1360 /* Assets.xcassets */; };
 		03EA88972151651800BB1360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EA88952151651800BB1360 /* LaunchScreen.storyboard */; };
+		03EA88A32151690700BB1360 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA88A22151690700BB1360 /* NoteModel.swift */; };
+		03EA88A52151692800BB1360 /* Dbhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA88A42151692800BB1360 /* Dbhelper.swift */; };
+		03EA88A72151694300BB1360 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA88A62151694300BB1360 /* TodoViewModel.swift */; };
+		03EA88AC21516AEB00BB1360 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA88AA21516AEB00BB1360 /* TodoTableViewCell.swift */; };
+		03EA88AD21516AEB00BB1360 /* TodoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EA88AB21516AEB00BB1360 /* TodoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03EA88892151651300BB1360 /* Note-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EA888C2151651300BB1360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03EA888E2151651300BB1360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03EA888E2151651300BB1360 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		03EA88912151651300BB1360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03EA88932151651800BB1360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03EA88962151651800BB1360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03EA88982151651800BB1360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EA88A22151690700BB1360 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		03EA88A42151692800BB1360 /* Dbhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dbhelper.swift; sourceTree = "<group>"; };
+		03EA88A62151694300BB1360 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		03EA88AA21516AEB00BB1360 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		03EA88AB21516AEB00BB1360 /* TodoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoTableViewCell.xib; sourceTree = "<group>"; };
+		818BDB18CE4436F213EAA87B /* Pods-Note-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note-MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Note-MVVM/Pods-Note-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		B3D1F36A7FD564756E88EDD4 /* Pods-Note-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note-MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Note-MVVM/Pods-Note-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		FF04CFB2D782B5F84D61EFBC /* Pods_Note_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Note_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01312D3DCFBECC9E374B1DC0 /* Pods_Note_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				03EA888B2151651300BB1360 /* Note-MVVM */,
 				03EA888A2151651300BB1360 /* Products */,
+				898A9DEA25D10F99D561EAFD /* Pods */,
+				6B0C253C2348729A5418AA60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,68 @@
 		03EA888B2151651300BB1360 /* Note-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				03EA889E215168C100BB1360 /* service */,
+				03EA889F215168CE00BB1360 /* model */,
+				03EA88A0215168D700BB1360 /* viewmodel */,
+				03EA88A1215168E000BB1360 /* view */,
 				03EA888C2151651300BB1360 /* AppDelegate.swift */,
-				03EA888E2151651300BB1360 /* ViewController.swift */,
 				03EA88902151651300BB1360 /* Main.storyboard */,
 				03EA88932151651800BB1360 /* Assets.xcassets */,
 				03EA88952151651800BB1360 /* LaunchScreen.storyboard */,
 				03EA88982151651800BB1360 /* Info.plist */,
 			);
 			path = "Note-MVVM";
+			sourceTree = "<group>";
+		};
+		03EA889E215168C100BB1360 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				03EA88A42151692800BB1360 /* Dbhelper.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		03EA889F215168CE00BB1360 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				03EA88A22151690700BB1360 /* NoteModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		03EA88A0215168D700BB1360 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				03EA88A62151694300BB1360 /* TodoViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		03EA88A1215168E000BB1360 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				03EA888E2151651300BB1360 /* TodoViewController.swift */,
+				03EA88AA21516AEB00BB1360 /* TodoTableViewCell.swift */,
+				03EA88AB21516AEB00BB1360 /* TodoTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B0C253C2348729A5418AA60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF04CFB2D782B5F84D61EFBC /* Pods_Note_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		898A9DEA25D10F99D561EAFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1F36A7FD564756E88EDD4 /* Pods-Note-MVVM.debug.xcconfig */,
+				818BDB18CE4436F213EAA87B /* Pods-Note-MVVM.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03EA889B2151651800BB1360 /* Build configuration list for PBXNativeTarget "Note-MVVM" */;
 			buildPhases = (
+				CB14731E2171F412B54E1F1A /* [CP] Check Pods Manifest.lock */,
 				03EA88852151651300BB1360 /* Sources */,
 				03EA88862151651300BB1360 /* Frameworks */,
 				03EA88872151651300BB1360 /* Resources */,
+				F23EDB604F951D90E5804812 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +198,68 @@
 				03EA88972151651800BB1360 /* LaunchScreen.storyboard in Resources */,
 				03EA88942151651800BB1360 /* Assets.xcassets in Resources */,
 				03EA88922151651300BB1360 /* Main.storyboard in Resources */,
+				03EA88AD21516AEB00BB1360 /* TodoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB14731E2171F412B54E1F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Note-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23EDB604F951D90E5804812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Note-MVVM/Pods-Note-MVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Note-MVVM/Pods-Note-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03EA88852151651300BB1360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03EA888F2151651300BB1360 /* ViewController.swift in Sources */,
+				03EA888F2151651300BB1360 /* TodoViewController.swift in Sources */,
+				03EA88A32151690700BB1360 /* NoteModel.swift in Sources */,
 				03EA888D2151651300BB1360 /* AppDelegate.swift in Sources */,
+				03EA88AC21516AEB00BB1360 /* TodoTableViewCell.swift in Sources */,
+				03EA88A72151694300BB1360 /* TodoViewModel.swift in Sources */,
+				03EA88A52151692800BB1360 /* Dbhelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +401,13 @@
 		};
 		03EA889C2151651800BB1360 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D1F36A7FD564756E88EDD4 /* Pods-Note-MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J64XU66BT;
 				INFOPLIST_FILE = "Note-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +421,13 @@
 		};
 		03EA889D2151651800BB1360 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818BDB18CE4436F213EAA87B /* Pods-Note-MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J64XU66BT;
 				INFOPLIST_FILE = "Note-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
